@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod 0600 /id_rsa
+
 [ -z "$1" ] && echo "Error: No target argument given" && exit 1;
 
 # remote PORT can be set via ENV or defaults to 5678
