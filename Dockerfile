@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER Dry1d <Dry1d@hotmail.com>
 
-RUN DEBIAN_FRONTEND=noninteractive apt update && apt install -y openssh-client
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y openssh-client
 
 ENV PORT 0
 
