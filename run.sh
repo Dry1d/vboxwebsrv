@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod 0600 id_rsa
+chmod 0600 /id_rsa
 
 [ -z "$1" ] && echo "Error: No target argument given" && exit 1;
 
