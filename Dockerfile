@@ -10,4 +10,5 @@ EXPOSE 18083
 
 # use run.sh help to check parameters and connect to target
 ADD run.sh run.sh
+RUN chmod +x run.sh
 ENTRYPOINT ["./run.sh"]
